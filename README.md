@@ -12,7 +12,7 @@ These installers are for **64-bit Intel/AMD Linux desktops (x86-64 / amd64)**, n
 | [DEB](https://github.com/brannum/RecipeMarks-downloads/releases/download/v2.0.1/RecipeMarks-2.0.1-linux-amd64.deb) | Ubuntu/Debian-based package installation |
 | [SHA256SUMS](https://github.com/brannum/RecipeMarks-downloads/releases/download/v2.0.1/SHA256SUMS) | Verify downloaded files |
 
-Read the [installation and update instructions](INSTALL.md) and [release notes](https://github.com/brannum/RecipeMarks-downloads/releases/tag/v2.0.1). The Snap Store stable release is pending; use the verified direct downloads above for now.
+Read the [installation and update instructions](INSTALL.md) and [release notes](https://github.com/brannum/RecipeMarks-downloads/releases/tag/v2.0.1). RecipeMarks is also available from the [Snap Store](https://snapcraft.io/recipemarks) on the stable channel.
 
 ## Your data and account
 

@@ -51,7 +51,17 @@ Then open **RecipeMarks** from your application menu. Run the application as you
 
 ## Snap Store
 
-The stable Snap release is pending. Use the AppImage or DEB above for now. Snap installation instructions will be added after the Store-delivered stable package has passed acceptance.
+Install the stable release from the [Snap Store](https://snapcraft.io/recipemarks):
+
+```sh
+sudo snap install recipemarks
+```
+
+Launch RecipeMarks from your application menu as your normal user. Optional removable-media access is disconnected by default; connect it only if you want RecipeMarks to access files on external drives:
+
+```sh
+sudo snap connect recipemarks:removable-media
+```
 
 ## Updates and backups
 
