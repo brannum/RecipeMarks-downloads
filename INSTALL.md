@@ -51,13 +51,7 @@ Then open **RecipeMarks** from your application menu. Run the application as you
 
 ## Snap Store
 
-Install [snapd for your distribution](https://snapcraft.io/docs/installing-snapd), then use the [RecipeMarks Store page](https://snapcraft.io/recipemarks) or:
-
-```sh
-sudo snap install recipemarks
-```
-
-Snap handles updates through the Store. Switching from an AppImage or DEB to Snap may use a separate data profile; export a backup and import it in the new installation.
+The stable Snap release is pending. Use the AppImage or DEB above for now. Snap installation instructions will be added after the Store-delivered stable package has passed acceptance.
 
 ## Updates and backups
 
@@ -71,6 +65,6 @@ Do not clear the app's data to update it. Keep a portable backup before switchin
 
 ## Troubleshooting
 
-If Linux blocks the app's Chromium sandbox, use the DEB or Snap package appropriate for your system and contact support. Do not run the app as root or disable system-wide security settings to make it launch.
+If Linux blocks the AppImage's Chromium sandbox, use the DEB package on Ubuntu/Debian and contact support for other distributions. The AppImage does not silently disable its sandbox to work around a host restriction. Do not run the app as root or disable system-wide security settings to make it launch.
 
 Email support@recipemarks.com with the app version, Linux distribution/version, CPU architecture, package format, and error text. Leave out passwords and private note/recipe content.
